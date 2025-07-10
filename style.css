@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.colonka{
+    flex: 1;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colonka h2{
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.colonka h2:hover{
+    background: rgba(0,0,0,0.1);
+    cursor:pointer;
+  
+}
+
+.colonka button{
+    outline: none;
+    border:none;
+    background: transparent;
+    font-size: 1.5rem;
+    color:#fff;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.colonka button:hover{
+    background: rgba(0,0,0,0.1);
+    cursor:pointer;
+    
+}
